@@ -17,7 +17,7 @@ const onError = () => () => {
 }
 
 export const HtmlViewer = () => {
-    const uri = app.settings.url
+    const uri = "https://chat.thecollectiveOS.com/"
     const webViewRef = useRef()
     const [loading, setLoading] = useState(false)
 

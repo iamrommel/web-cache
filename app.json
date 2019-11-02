@@ -2,12 +2,11 @@
   "expo": {
     "name": "web-cache",
     "slug": "web-cache",
-    "privacy": "public",
+    "privacy": "unlisted",
     "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +23,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ph.lsf.webcache"
+    },
+    "android": {
+      "package": "ph.lsf.webcache"
     }
   },
   "settings": {
-    "url" : "https://www.apollographql.com/docs/apollo-server/data/subscriptions/"
+    "url" : "https://chat.thecollectiveOS.com/"
   }
 }
