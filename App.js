@@ -1,19 +1,25 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StatusBar, StyleSheet, View } from 'react-native'
+import { HtmlViewer } from './components/HtmlViewer'
+import { ThemeProvider } from 'react-native-elements'
+import { Nav } from './components/Nav'
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+    return (
+        <ThemeProvider>
+            <View style={styles.container}>
+
+                <HtmlViewer/>
+            </View>
+        </ThemeProvider>
+    )
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    container: {
+        flex: 1,
+        backgroundColor: 'red',
+        alignItems: 'center',
+        justifyContent: 'center',
+    }
+})

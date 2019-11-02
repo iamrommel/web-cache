@@ -26,5 +26,8 @@
     "ios": {
       "supportsTablet": true
     }
+  },
+  "settings": {
+    "url" : "https://www.apollographql.com/docs/apollo-server/data/subscriptions/"
   }
 }
