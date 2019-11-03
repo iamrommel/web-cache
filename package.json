@@ -6,14 +6,16 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build:android" : "expo build:android --release-channel production --type apk",
+    "build:android": "expo build:android --release-channel production --type apk",
+    "build:ios": "expo build:ios --release-channel production",
     "publish": "expo publish --release-channel production"
   },
   "dependencies": {
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-webview": "7.0.5"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"

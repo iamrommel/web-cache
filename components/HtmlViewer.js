@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
-import { Alert, Dimensions, WebView } from 'react-native'
-
+import { Alert, Dimensions } from 'react-native'
+import { WebView } from 'react-native-webview'
 
 const deviceHeight = Dimensions.get('window').height
 const deviceWidth = Dimensions.get('window').width
@@ -22,6 +22,7 @@ export const HtmlViewer = () => {
     return (
         <React.Fragment>
             <WebView
+                cacheMode={"LOAD_CACHE_ELSE_NETWORK"}
                 onLoadStart={() => setLoading(true)}
                 onLoadEnd={() => setLoading(false)}
                 onError={() => onError()}
