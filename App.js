@@ -1,15 +1,13 @@
 import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StatusBar, StyleSheet, View } from 'react-native'
 import { HtmlViewer } from './components/HtmlViewer'
-import { ThemeProvider } from 'react-native-elements'
 
 export default function App() {
     return (
-        <ThemeProvider>
-            <View style={styles.container}>
-                <HtmlViewer/>
-            </View>
-        </ThemeProvider>
+        <View style={styles.container}>
+            <StatusBar hidden={true}/>
+            <HtmlViewer/>
+        </View>
     )
 }
 

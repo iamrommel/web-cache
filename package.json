@@ -10,14 +10,10 @@
     "publish": "expo publish --release-channel production"
   },
   "dependencies": {
-    "add": "^2.0.6",
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-elements": "^1.2.7",
-    "react-native-web": "^0.11.7",
-    "yarn": "^1.19.1"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"
